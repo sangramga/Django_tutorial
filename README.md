@@ -24,7 +24,6 @@ The migrate command looks at the INSTALLED_APPS setting and creates any necessar
 
 To include the app in our project, we need to add a reference to its configuration class in the INSTALLED_APPS setting. The PollsConfig class is in the polls/apps.py file, so its dotted path is 'polls.apps.PollsConfig'. Edit the mysite/settings.py file and add that dotted path to the INSTALLED_APPS setting. It’ll look like this:
 
-``
     INSTALLED_APPS = [\
         'polls.apps.PollsConfig',\
         'django.contrib.admin',\
@@ -34,4 +33,3 @@ To include the app in our project, we need to add a reference to its configurati
         'django.contrib.messages',\
         'django.contrib.staticfiles',\
     ]\
-``
