@@ -75,5 +75,4 @@ Refer to:
 Refactor views.py and urls.py to use Django Generic/ Class Based Views
 Refer to:
 
-[https://docs.djangoproject.com/en/2.0/intro/tutorial04/#use-generic-views-less-code-is-better]
-(https://docs.djangoproject.com/en/2.0/intro/tutorial04/#use-generic-views-less-code-is-better)
+<https://docs.djangoproject.com/en/2.0/intro/tutorial04/#use-generic-views-less-code-is-better>
