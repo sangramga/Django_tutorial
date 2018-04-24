@@ -76,3 +76,9 @@ Refactor views.py and urls.py to use Django Generic/ Class Based Views
 Refer to:
 
 <https://docs.djangoproject.com/en/2.0/intro/tutorial04/#use-generic-views-less-code-is-better>
+
+## Automated Testing
+
+Testing for models and views in api/tests.py
+
+``python manage.py test api``
