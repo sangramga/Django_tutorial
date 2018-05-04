@@ -6,7 +6,7 @@ class ChoiceInline(admin.TabularInline):
     model = Choice
     extra = 3
 
-
+# help 
 class QuestionAdmin(admin.ModelAdmin):
     # re-arrange Fields in Admin Form
     # fields = ['pub_date', 'q_text']
@@ -37,6 +37,7 @@ class QuestionAdmin(admin.ModelAdmin):
 
     """Number of objects per page of change list Default = 100"""
     list_per_page = 10
+
 
 admin.site.register(Question, QuestionAdmin)
 # admin.site.register(Question)
