@@ -6,7 +6,7 @@ class ChoiceInline(admin.TabularInline):
     model = Choice
     extra = 3
 
-# help 
+
 class QuestionAdmin(admin.ModelAdmin):
     # re-arrange Fields in Admin Form
     # fields = ['pub_date', 'q_text']
