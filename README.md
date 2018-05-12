@@ -82,3 +82,32 @@ Refer to:
 Testing for models and views in api/tests.py
 
 ``python manage.py test api``
+
+
+# Django Rest Framework
+
+## Serializers
+
+Serializers allow complex data such as ``querysets`` and ``model`` instances to be converted
+to native Python datatypes that can then be easily rendered into ``JSON``, ``XML`` or other content types.
+Serializers also provide deserialization, allowing parsed data to be converted back into
+complex types, after first validating the incoming data.
+
+
+The serializers in REST framework work very similarly to Django's ``Form`` and ``ModelForm`` classes.
+We provide a ``Serializer`` class which gives you a powerful, generic way 
+to control the output of your responses, as well as a ``ModelSerializer`` class which provides 
+a useful shortcut for creating serializers that deal with model instances and querysets.
+
+
+Our ``SnippetSerializer`` class is replicating a lot of information that's also contained in the Snippet model. It would be nice if we could keep our code a bit more concise.
+
+In the same way that Django provides both ``Form`` classes and ``ModelForm`` classes, REST framework includes both ``Serializer`` classes, and ``ModelSerializer`` classes.
+
+``ModelSerializer`` is a shortcut to:
+
+* An automatically determined set of fields.
+* Simple default implementations for the ``create()`` and ``update()`` methods.
+
+Refer to:
+<http://www.django-rest-framework.org/tutorial/1-serialization/#tutorial-1-serialization>
